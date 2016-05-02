@@ -1,0 +1,216 @@
+html {
+  overflow-y: scroll;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+body {
+	background-color: #fff;
+	font-family: 'Open Sans';
+	color: #000;
+	padding: 0;
+	font: large / 1.556 "Libertine", Palatino, "Palatino Linotype", "Book Antiqua",
+    Georgia, "Times New Roman", serif;
+    word-spacing: 0.1em;
+    max-width: 960px;
+    margin: 0 auto;
+    padding-bottom: 2em;
+}
+
+h1:before {
+	content: '';
+}
+
+h1, h2, h3 {
+	padding: 0;
+	margin: 0;
+	border: 0;
+	line-height: 64px;
+	text-align: center;
+	clear: both;
+}
+
+h1 {
+	text-transform: uppercase;
+}
+
+h2 {
+	font-size: 36px;
+}
+
+h3 {
+	font-size: x-large;
+}
+
+a {
+	text-decoration: none;
+}
+
+p {
+	line-height: 1.5em;
+}
+
+.continer {
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+}
+
+.banner {
+	text-align: center;
+}
+
+#article {
+	width: 550px;
+	margin: 0 auto;
+}
+
+.banner, .banner-title {
+	font-family: "Fertigo";
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 5rem;
+	letter-spacing: 0.3em;
+}
+
+.banner-title a {
+	color: #000000;
+}
+
+.banner-subclause {
+	text-align: center;
+	font-size: 17px;
+	font-style: italic;
+	line-height: 1.2em;
+	margin: 0.5em auto 1em auto;
+	color: #E95420;
+}
+
+.metadata {
+	text-align: center;
+}
+
+.title {
+	text-align: center;
+	font-size: 1em;
+	font-weight: 400;
+	margin: 40px auto 30px auto;
+}
+
+.content {
+	padding: 0 15% 5% 15%;
+}
+
+.content a:link, .content a:visited, .content a:active {
+	color: #0D47A1;
+}
+
+.content a:hover {
+  border-bottom: 1px dotted;
+}
+
+.nav {
+	font-style: italic;
+	font-size: 12px;
+}
+
+.category {
+	color: black;
+	text-decoration: none;
+	font-size: 15px;
+	letter-spacing: 0.1em;
+	line-height: 1.2em;
+}
+
+.category a {
+	text-decoration: none;
+	color: black;
+}
+
+.category a:hover {
+	text-decoration: underline;
+}
+
+.timestamp {
+	font-style: italic;
+	font-size: 15px;
+	letter-spacing: 0.1 em;
+	line-height: 1.2em;
+}
+
+.archive {
+	margin: 5px auto 0px auto;
+	padding: 0 10px;
+	text-align: center;
+}
+
+.divider {
+	width: 300px;
+	margin: 5px auto 5px auto;
+	border-top: 1px solid #CCC;
+}
+
+.list-item {
+	font-size: 18px;
+	font-weight: 400;
+	text-align: center;
+	margin: 40px auto 30px auto;
+}
+
+.list-item a {
+	text-transform: uppercase;
+	color: black;
+	letter-spacing: 0.1em;
+}
+
+.list-nav {
+	font-size: 0.75em;
+	font-style: italic;
+}
+
+.list-item a:hover {
+	text-decoration: underline;
+}
+
+.article-end {
+	text-align: center;
+	text-transform: lowercase;
+	clear: both;
+	width: 300px;
+	margin: 40px auto 30px auto;
+	border-bottom: 1px solid #CCC;
+}
+
+.hint {
+  color: #060;
+}
+
+.list-item a {
+	text-transform: capitalize;
+}
+
+.post p:first-of-type:first-letter {
+  font-size: 4em;
+  float: left;
+  margin-top: 7px;
+  margin-right: 5px;
+  line-height: 1;
+}
+
+.article-end {
+  text-align: center;
+  text-transform: lowercase;
+  clear: both;
+  width: 300px;
+  margin: 40px auto 30px auto;
+  border-bottom: 2px solid #B92B27;
+}
+
+p {
+  font-size: 15px;
+  word-spacing: 0.1em
+}
+
+article {
+  margin: 0 auto;
+}
