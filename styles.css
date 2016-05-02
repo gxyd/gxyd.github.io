@@ -207,10 +207,24 @@ p {
 }
 
 p {
-  font-size: 15px;
-  word-spacing: 0.1em
+  font-size: 16px;
+  word-spacing: 0.15em
 }
 
 article {
   margin: 0 auto;
+}
+
+ul li {
+  margin: 1rem 0;
+  font-size: ;
+}
+
+ul {
+  line-height: 1.5em;
+  font-size: 16px;
+}
+
+ul li {
+	margin: 25px auto 25px auto;
 }
