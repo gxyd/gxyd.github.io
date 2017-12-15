@@ -16,6 +16,215 @@ body {
   background-color: #fdfdfd;
 }
 
+.home-body {
+  border-top: 15px solid #222;
+  border-bottom: 15px solid #222;
+  box-sizing: border-box;
+  background-color: #f0f0f0;
+  height: initial;
+  min-height: 100%;
+}
+
+#home-content {
+  text-align: center;
+  padding-top: 80px;
+  padding-bottom: 20px;
+}
+
+#profile {
+  background-image: url(../images/home.jpeg);
+  background-size: cover;
+  border-radius: 50%;
+  z-index: 1;
+  height: 220px;
+  width: 220px;
+  margin: 0px auto;
+}
+
+.home-body h1 {
+  font-family: 'Roboto-Thin', sans-serif;
+  font-size: 2.5em;
+  letter-spacing: 2px;
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+
+.home-body h3 {
+  font-family: 'Aileron-Thin', sans-serif;
+  font-size: 0.9em;
+  letter-spacing: 3px;
+}
+
+#home-content hr {
+  width: 15%;
+  margin: 15px auto;
+  margin-top: 8px;
+}
+
+#profile-links {
+  margin: 30px;
+  margin-top: 40px;
+}
+
+#profile-links .home-links {
+  font-family: 'AvenirNext-Regular', sans-serif;
+  padding: 10px;
+  color: #555;
+  -webkit-transition: all 0.2s ease-in;
+  -moz-transition: all 0.2s ease-in;
+  -ms-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+
+#profile-links .home-links:hover {
+  color: #bbb;
+}
+
+#content {
+  font-family: 'AvenirNext-Regular', Helvetica, sans-serif;
+  font-size: 1.1em;
+}
+
+#content .title {
+  font-size: 2em;
+  padding-bottom: 20px;
+}
+
+#content #profile {
+  float: left;
+  margin: 20px;
+}
+
+@media screen and (max-width: 550px) {
+  #content #profile {
+    float: initial;
+    margin: 20px auto;
+  }
+}
+
+#content p {
+  margin: 20px 0px;
+}
+
+#content p a {
+  color: #000;
+  padding-bottom: 1px;
+  border-bottom: 1px solid #aaa;
+}
+
+#content p a:visited {
+  color: #000;
+}
+
+#content p a:hover {
+  color: #777;
+}
+
+.projects {
+  font-size: 0.9em;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  list-style: none;
+}
+
+.project {
+  margin: 40px 0px;
+  padding-bottom: 20px;
+}
+
+.project-name {
+  padding: 10px;
+  font-size: 1.3em;
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+}
+
+.project-name a {
+  color: #205caa;
+  padding-bottom: 2px;
+  border-bottom: 1px dashed #205caa;
+}
+
+.project-name a:visited {
+  color: #205caa;
+}
+
+.project-name a:hover {
+  color: #508cda;
+}
+
+.star-button {
+  float: right;
+}
+
+.project-description {
+  padding-top: 10px;
+  padding-left: 30px;
+}
+
+.project-description li {
+  margin-bottom: 5px;
+}
+
+.project-tech {
+  margin-left: 14px;
+}
+
+.project-tech span {
+  padding-bottom: 2px;
+  font-weight: bold;
+}
+
+.project-tech .project-padding {
+  visibility: hidden;
+}
+
+.project-source a {
+  border: 1px solid;
+  border-radius: 5px;
+  padding: 5px;
+  float: right;
+  margin-right: 2%;
+  position: relative;
+  bottom: 13px;
+  color: #205caa;
+}
+
+.project-source a:visited {
+  color: #205caa;
+}
+
+.project-source a:hover {
+  color: #508cda;
+}
+
+#contact-details {
+  margin-top: 20px;
+}
+
+#contact-details li {
+  margin: 10px;
+}
+
+#gpg-fingerprint {
+  display: block;
+  margin: 20px;
+  font-weight: bold;
+}
+
+#contact-details a {
+  color: #205caa;
+}
+
+.contact-details a:visited {
+  color: #205caa;
+}
+
+.contact-details a:hover {
+  color: #508cda;
+}
+
 h1, h2, h3, h4, h5, h6 { font-size: 100%; font-weight: 400; }
 
 a         { color: #2a7ae2; text-decoration: none; }
@@ -50,11 +259,13 @@ a:visited { color: #205caa; }
   border-bottom: 1px solid #e8e8e8;
   background-color: white;
   padding-top: 20px;
+  padding-bottom: 26px;
 }
 
 .site-title,
 .site-title:hover,
 .site-title:visited {
+  font-family: 'AvenirNext-Regular';
   display: block;
   color: #333;
   font-size: 26px;
@@ -155,6 +366,9 @@ a:visited { color: #205caa; }
   width: calc(41.875%);
 }
 
+.home-icons {
+}
+
 .site-footer ul { list-style: none; }
 
 .site-footer li,
@@ -168,7 +382,20 @@ a:visited { color: #205caa; }
   clear: both;
   text-align: center;
   margin: 0px;
+  margin-top: 12px;
   padding: 0px;
+}
+
+.footer-bottom p {
+  padding-top: 3px;
+}
+
+.footer-bottom a {
+  color: #828282;
+  padding: 0px 4px;
+  font-size: 0.7em;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
 
 
@@ -182,7 +409,6 @@ a:visited { color: #205caa; }
   background-color: #fff;
 }
 
-
 /* Home styles */page-content
 /* ----------------------------------------------------------*/
 
@@ -193,6 +419,7 @@ a:visited { color: #205caa; }
 .posts li { margin-bottom: 30px; }
 
 .posts .post-link {
+  font-family: 'AvenirNext-Regular';
   font-size: 24px;
   letter-spacing: -1px;
   line-height: 1.5;
@@ -225,6 +452,7 @@ a:visited { color: #205caa; }
 .post-header { margin: 10px 0 30px; }
 
 .post-header h1 {
+  font-family: 'AvenirNext-Regular';
   font-size: 42px;
   letter-spacing: -1.75px;
   line-height: 1;
@@ -277,7 +505,7 @@ a:visited { color: #205caa; }
   padding-left: 20px;
   font-size: 18px;
   opacity: .6;
-  letter-spacing: -1px;
+  letter-spacing: 0px;
   margin: 30px 0;
 }
 
@@ -291,6 +519,11 @@ a:visited { color: #205caa; }
   margin-left: auto;
 }
 
+.post-footer {
+  text-align: right;
+  border-top: 2px #aaa solid;
+}
+
 pre,
 .post code {
   border: 1px solid #d5d5e9;
@@ -300,9 +533,25 @@ pre,
   -moz-border-radius: 3px;
   border-radius: 3px;
   font-size: 18px;
-  white-space: pre-line;
   word-wrap: break-word;
+  white-space: pre-wrap;
+  white-space: -moz-pre-wrap;
+  white-space: -pre-wrap;
+  white-space: -o-pre-wrap;
   font-family: "Courier New" Courier monospace;
+}
+
+li {
+  margin-bottom: 30px;
+}
+
+ol li ul li {
+  margin-bottom: 5px;
+}
+
+li pre {
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 
 .post code { padding: 1px 5px; }
@@ -334,7 +583,7 @@ pre,
 /* Syntax highlighting styles */
 /* ----------------------------------------------------------*/
 
-.highlight  { background: #ffffff; }
+/*.highlight  { background: #ffffff; }*/
 .highlight .c { color: #999988; font-style: italic } /* Comment */
 .highlight .err { color: #a61717; background-color: #e3d2d2 } /* Error */
 .highlight .k { font-weight: bold } /* Keyword */
@@ -395,10 +644,8 @@ pre,
 .highlight .vi { color: #008080 } /* Name.Variable.Instance */
 .highlight .il { color: #009999 } /* Literal.Number.Integer.Long */
 
-
 /* media queries */
 /* ----------------------------------------------------------*/
-
 
 @media screen and (max-width: 750px) {
 
@@ -476,7 +723,8 @@ pre,
     float: none;
     clear: both;
     width: auto;
-    margin: 0 0 15px; }
+    margin: 0 0 15px; 
+  }
 
 }
 
@@ -498,3 +746,15 @@ pre,
   font-style: normal;
   font-weight: normal;
   src: url("../font/avenirnext-bold.woff"); }
+
+@font-face {
+  font-family: 'Aileron-Thin';
+  font-style: normal;
+  font-weight: normal;
+  src: url("../font/Aileron-Thin.otf"); }
+
+@font-face {
+  font-family: 'Roboto-Thin';
+  font-style: normal;
+  font-weight: normal;
+  src: url("../font/Roboto-Thin.ttf"); }

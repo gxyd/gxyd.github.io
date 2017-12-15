@@ -1,6 +1,8 @@
 github_logo: /assets/images/github.gif
-facebook_logo: /assets/images/facebook.gif
 google_logo: /assets/images/google.gif
-avatar: /assets/images/profile.jpg
-apple-touch-icon: /assets/images/profile.jpg
+twitter_logo: /assets/images/twitter.gif
+email_logo: /assets/images/email.gif
+rss_logo: /assets/images/rss.gif
+avatar: /assets/images/home.png
+apple-touch-icon: /assets/images/home.jpeg
 favicon: /assets/images/favicon.png

@@ -1,9 +1,19 @@
-highlighter: pygments
+highlighter: rouge
+markdown: kramdown
+kramdown:
+  input: GFM
+  auto_ids: true
+  syntax_highlighter: rouge
+gems:
+  - jekyll-sitemap
 permalink: blogs/:title/
-title: Dhaval Kapil
-email: dhavalkapil@gmail.com
-description: Blog of Dhaval Kapil - Developer at SDSLabs, student at IIT Roorkee
-keywords: dhaval, kapil, vampire, iit roorkee, sdslabs, developer, geek, programmer, pianist, keyboardist, github, jekyll
-link-description: Blog of Dhaval Kapil - Developer at <a href = 'http://team.sdslabs.co/' target = '_blank'>SDSLabs</a>, student at IIT Roorkee
+title: solving the x's and y's of math, programming and life
+email: gauravdhingra.gxyd@gmail.com
+description: Website of Gaurav Dhingra, Applied Mathematics student at IIT Roorkee
+keywords: gaurav, dhingra, iit, roorkee, developer, sympy, geek, programmer, pianist, github
 baseurl: ""
-url: http://dhavalkapil.github.io
+url: https://gxyd.github.io
+name: Gaurav Dhingra's blog
+author:
+  name: Gaurav Dhingra
+  email: gauravdhingra.gxyd@gmail.com

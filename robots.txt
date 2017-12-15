@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: /resume.pdf
+Sitemap: https://gxyd.github.io/sitemap.xml
