@@ -9,7 +9,7 @@ gems:
 permalink: blogs/:title/
 title: solving the x's and y's of math, programming and life
 email: gauravdhingra.gxyd@gmail.com
-description: Website of Gaurav Dhingra, Applied Mathematics student at IIT Roorkee
+description: Website of Gaurav Dhingra, Compiler Engineer
 keywords: gaurav, dhingra, iit, roorkee, developer, sympy, geek, programmer, pianist, github, linux
 baseurl: ""
 url: https://gxyd.github.io
